@@ -76,12 +76,14 @@
             resources.ApplyResources(this.tsbtnFont, "tsbtnFont");
             this.tsbtnFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbtnFont.Name = "tsbtnFont";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
             resources.ApplyResources(this.tsbtnColor, "tsbtnColor");
             this.tsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbtnColor.Name = "tsbtnColor";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // toolStripStatusLabel1
             // 
