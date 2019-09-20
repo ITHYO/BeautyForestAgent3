@@ -79,6 +79,9 @@
     <EmbeddedResource Include="FormModify.resx">
       <DependentUpon>FormModify.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormOpinion.ko.resx">
+      <DependentUpon>FormOpinion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormOpinion.resx">
       <DependentUpon>FormOpinion.cs</DependentUpon>
     </EmbeddedResource>
